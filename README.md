@@ -1,3 +1,6 @@
+# uOttawa Brightspace Theme
+A mod for Zijian Shao's Learn Darklight, extended for uOttawa's Brightspace to include extra (better?) themes. Inspired by the blinding feeling you get when you open Brightspace at 2am.
+
 # Learn Darklight
 Learn Darklight is a browser extension that offers multiple themes for Waterloo Learn. [Visit extension website](https://www.zijianshao.com/dlight/ "Learn Darklight Official Website")
 

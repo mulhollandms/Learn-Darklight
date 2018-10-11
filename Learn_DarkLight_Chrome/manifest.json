@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Learn Darklight",
   "version": "1.4.11",
-  "author": "Zijian Shao",
+  "author": "Modified by Michael Mulholland for uOttawa, original design by Zijian Shao",
   "background": {
     "persistent": false,
     "scripts": [
@@ -28,8 +28,7 @@
         "js/init.js"
       ],
       "matches": [
-        "*://learn.uwaterloo.ca/*",
-        "*://mylearningspace.wlu.ca/*"
+        "*://uottawa.brightspace.com/*"
       ],
       "run_at": "document_start"
     },
@@ -38,13 +37,12 @@
         "js/init_idle.js"
       ],
       "matches": [
-        "*://learn.uwaterloo.ca/*",
-        "*://mylearningspace.wlu.ca/*"
+        "*://uottawa.brightspace.com/*"
       ],
       "run_at": "document_end"
     }
   ],
-  "description": "Learn Darklight offers multiple themes for the new Waterloo Learn.",
+  "description": "Learn Darklight offers multiple themes for uOttawa Brightspace.",
   "icons": {
     "128": "icon/icon128.png",
     "16": "icon/icon16.png",
@@ -56,8 +54,7 @@
     "activeTab",
     "contextMenus",
     "storage",
-    "*://learn.uwaterloo.ca/*",
-    "*://mylearningspace.wlu.ca/*"
+    "*://uottawa.brightspace.com/*"
   ],
   "short_name": "Learn Darklight",
   "web_accessible_resources": [

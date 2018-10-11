@@ -2,15 +2,15 @@ function initTheme() {
     if (!isWLU()) {
 
         // bg - waterloo
-        $('.d2l-page-main').prepend('<div class="darklight-waterloo" style="background-image: url(' + baseURL + 'img/waterloo_background.png); opacity: 0.2;"></div>');
+        $('.d2l-page-main').prepend('<div class="darklight-waterloo" style="background-image: url(' + baseURL + 'img/ottawa_background.png); opacity: 0.2;"></div>');
 
         // logo - white
-        $('.d2l-navigation-s-logo-link img').attr('src', baseURL + 'img/waterloo_learn_logo.png').css('opacity', 0.8);
+        $('.d2l-navigation-s-logo-link img').attr('src', baseURL + 'img/uottawow_logo.png').css('opacity', 0.8);
 
     } else {
 
         // for wlu learn (beta)
-        $('.d2l-navigation-s-logo-link img').attr('src', baseURL + 'img/laurier_learn_logo.png').css('opacity', 0.8);
+        $('.d2l-navigation-s-logo-link img').attr('src', baseURL + 'img/uottawow_logo.png').css('opacity', 0.8);
 
     }
 
